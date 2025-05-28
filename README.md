@@ -25,3 +25,17 @@ Sahayak is a modern web application built with **Vite**, **React**, **TypeScript
    ```bash
    git clone https://github.com/YOUR_USERNAME/Sahayak.git
    cd Sahayak
+2. **Install dependencies**
+   ```bash
+   npm install
+3. **Setup environment variables**
+   Create a .env file in the root directory and add your Supabase credentials:
+   ```env
+   VITE_SUPABASE_URL=your-supabase-url
+   VITE_SUPABASE_ANON_KEY=your-anon-key
+🔐 Keep your .env file private and never commit it to version control.
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+Visit: http://localhost:5173
